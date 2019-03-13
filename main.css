@@ -1,0 +1,36 @@
+.body {
+font-family: 'Arial';
+padding: 75px;
+text-align: center;
+background-image: url(https://wallpapertag.com/wallpaper/full/8/d/4/118470-neutral-background-2848x2136-for-tablet.jpg);
+background-size: cover
+
+}
+
+/*
+The jumbotrom is the class used to focus the users attention to the most relevant (and largest) portion of the page
+*/
+.jumbotron {
+  color: purple;
+  font-family: 'Arial'
+}
+
+/*
+ptags within the div'd ptags will maintain a specific format
+*/
+.ptag {
+ padding-top: 35px
+
+}
+
+.thumbnail {
+border: 5px black;
+transition: transform .5s;
+
+}
+
+.thumbnail img:hover{
+  transform: scale(2.0);
+  -webkit-transform: scale(2.0);
+  -ms-transform: scale(2.0);
+}
